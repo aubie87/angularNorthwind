@@ -1,5 +1,7 @@
 # angularNorthwind
-Angular frontend for the Northwind database and Visual Studio 2015 Express.
+Angular frontend for the Northwind database and [Visual Studio 2015 Express](https://www.visualstudio.com/features/modern-web-tooling-vs).
+
+[SQL Server Express 2015](https://www.microsoft.com/en-us/server-cloud/products/sql-server-editions/sql-server-express.aspx) is also used. The Northwind SQL script does not support LocalDB so a local instance of SQL Server Express is required.
 
 The project is primarily used as a reference as new technologies are learned and/or applied. In some cases, specific working examples will named per folders under AngularJS Single Page Apps (SPA). In other cases these examples will only be viewable within the code itself with sufficient comments (and occasional url references).
 
@@ -15,4 +17,9 @@ Create a standard ASP.NET Web Application with these features:
 * Authentication - "No Authentication" (will add later).
 * Microsoft Azure - not selected (hosted locally for reference purposes only).
 
- 
+ 2. Instal the Northwind Database
+# I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
+# Load the 'Northwind.sql' file from the project.
+# Connect to 
+# Open SQL Server Object Explorer and select "(LocalDb)\MSSQLLocalDB (SQL Server 12.x.yyyy - machine\user" where 'machine' is the local computer name and 'user' is the local user name.
+# Create a new SQL Query (right click server or hit icon).
