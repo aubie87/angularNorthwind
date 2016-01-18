@@ -24,8 +24,8 @@ Create a standard ASP.NET Web Application with these features:
   # Choose '(LocalDb)\MSSQLLocalDB' for the server name.
   # MSSQLLocalDB is the new name for the old (LocalDB)v11.0 connection string.
  * Now run the query by clicking the green arrow icon in the SQL toolbar.
-  ** This file was modified by commenting out lines 24 and 25 with an unknown stored procedure 'sp_dboption'.
-  ** Note - no MDB files are attached to this project. The databases must be created separately to run this project.
+    * This file was modified by commenting out lines 24 and 25 with an unknown stored procedure 'sp_dboption'.
+    * Note - no MDB files are attached to this project. The databases must be created separately to run this project.
  * The table data can be reviewed from the SQL Server Object Explorer. The database files are actually stored per user under 'AppData' to mimic actual SQL Server instance data.
  * Note - This script can be rerun at any time to reinitialize the database to its original state.
   
