@@ -18,8 +18,8 @@ Create a standard ASP.NET Web Application with these features:
 * Microsoft Azure - not selected (hosted locally for reference purposes only).
 
  2. Instal the Northwind Database
-# I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
-# Load the 'Northwind.sql' file from the project.
-# Connect to 
-# Open SQL Server Object Explorer and select "(LocalDb)\MSSQLLocalDB (SQL Server 12.x.yyyy - machine\user" where 'machine' is the local computer name and 'user' is the local user name.
-# Create a new SQL Query (right click server or hit icon).
+* I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
+* Load the 'Northwind.sql' file from the project.
+* Connect to 
+* Open SQL Server Object Explorer and select "(LocalDb)\MSSQLLocalDB (SQL Server 12.x.yyyy - machine\user" where 'machine' is the local computer name and 'user' is the local user name.
+* Create a new SQL Query (right click server or hit icon).
