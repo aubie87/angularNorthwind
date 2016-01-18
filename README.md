@@ -9,17 +9,21 @@ Ideally, this project will flow like a living and working tutorial for my own go
 
 The Northwind database was selected because many "old school" Microsoft devlepers will be readily familiar with its structure. The backend data is not relevant other than to provide near real world complexity in a reasonably sized database.
 
-## And So We Begin
+### And So We Begin
 1. Creating and initializing the project.
 Create a standard ASP.NET Web Application with these features:
-* ASP.NET 4.5.2 Templates - Web API (v5 Templates initial release gave me some problems).
-* Add unit tests - not used initially but very important.
-* Authentication - "No Authentication" (will add later).
-* Microsoft Azure - not selected (hosted locally for reference purposes only).
+ * ASP.NET 4.5.2 Templates - Web API (v5 Templates initial release gave me some problems).
+ * Add unit tests - not used initially but very important.
+ * Authentication - "No Authentication" (will add later).
+ * Microsoft Azure - not selected (hosted locally for reference purposes only).
 
- 2. Instal the Northwind Database
-* I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
-* Load the 'Northwind.sql' file from the project.
-* Connect to 
-* Open SQL Server Object Explorer and select "(LocalDb)\MSSQLLocalDB (SQL Server 12.x.yyyy - machine\user" where 'machine' is the local computer name and 'user' is the local user name.
-* Create a new SQL Query (right click server or hit icon).
+2. Instal the Northwind Database
+ * I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
+ * Load the 'Northwind.sql' file from the project.
+ * Right click the script or click the Connection icon to connect to a database.
+  * Choose '(LocalDb)\MSSQLLocalDB' for the server name.
+  * MSSQLLocalDB is the new name for the old (LocalDB)v11.0 connection string.
+ * Now run the query by clicking the green arrow icon in the SQL toolbar.
+  * This file was modified by commenting out lines 24 and 25 with an unknown stored procedure 'sp_dboption'.
+  * Note - no MDB files are attached to this project. The databases must be created separately to run this project.
+  
