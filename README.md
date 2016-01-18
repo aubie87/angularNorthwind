@@ -21,17 +21,17 @@ Create a standard ASP.NET Web Application with these features:
  * I loosely followed the instructions here with some modifications noted: https://msdn.microsoft.com/en-us/library/8b6y4c7s(v=vs.120).aspx
  * Load the 'Northwind.sql' file from the project.
  * Right click the script or click the Connection icon to connect to a database.
-  * Choose '(LocalDb)\MSSQLLocalDB' for the server name.
-  * MSSQLLocalDB is the new name for the old (LocalDB)v11.0 connection string.
+  # Choose '(LocalDb)\MSSQLLocalDB' for the server name.
+  # MSSQLLocalDB is the new name for the old (LocalDB)v11.0 connection string.
  * Now run the query by clicking the green arrow icon in the SQL toolbar.
-  * This file was modified by commenting out lines 24 and 25 with an unknown stored procedure 'sp_dboption'.
-  * Note - no MDB files are attached to this project. The databases must be created separately to run this project.
+  ** This file was modified by commenting out lines 24 and 25 with an unknown stored procedure 'sp_dboption'.
+  ** Note - no MDB files are attached to this project. The databases must be created separately to run this project.
  * The table data can be reviewed from the SQL Server Object Explorer. The database files are actually stored per user under 'AppData' to mimic actual SQL Server instance data.
  * Note - This script can be rerun at any time to reinitialize the database to its original state.
   
 3. Create the database model with EF6
  * Install the latest version of Entity Framework 6 via nuget (v6.1.3 at the time of writing).
-  * You might also take this opportunity to update any other out of date packages.
+  ** You might also take this opportunity to update any other out of date packages.
  * Right click the 'Models' project folder and select 'Add' and 'New Item...'
  * Select 'Data' in the left pane and choose 'ADO.NET Entity Data Model'. Name the model 'Northwind'.
  * Select 'Code First from database' and click Next.
