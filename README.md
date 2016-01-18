@@ -8,4 +8,11 @@ Ideally, this project will flow like a living and working tutorial for my own go
 The Northwind database was selected because many "old school" Microsoft devlepers will be readily familiar with its structure. The backend data is not relevant other than to provide near real world complexity in a reasonably sized database.
 
 ## And So We Begin
-Creating and initializing the project.
+1. Creating and initializing the project.
+Create a standard ASP.NET Web Application with these features:
+* ASP.NET 4.5.2 Templates - Web API (v5 Templates initial release gave me some problems).
+* Add unit tests - not used initially but very important.
+* Authentication - "No Authentication" (will add later).
+* Microsoft Azure - not selected (hosted locally for reference purposes only).
+
+ 
