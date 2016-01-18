@@ -186,6 +186,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\routing\about.html" />
+    <Content Include="app\routing\appRouting.js" />
+    <Content Include="app\routing\contact.html" />
+    <Content Include="app\routing\home.html" />
+    <Content Include="app\routing\index.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
